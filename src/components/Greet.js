@@ -6,8 +6,7 @@ class Greet extends React.Component{
         this.state={val:'awesome'};
     }
     changeValue = () => {
-        this.setState({val:"wonderful"}
-        );
+        this.setState({val:"wonderful"});
     }
     render(){
         return(
