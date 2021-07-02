@@ -9,11 +9,20 @@ class Menu extends React.Component{
     }
     render(){
         const menu = this.props.places.map((place) => {
-            return(
-                <div>
-
-                </div>
-            )
+           return(
+               <div key={place.id} id="unit" className="col-12 mt-5">
+                   <Media tag='li'>
+                       <Media objectsrc={place.image} alt={place.name}></Media>
+                        <Media body className='ml-3'>
+                            <Media heading><strong>{place.name}</strong></Media>
+                            <div><strong>Location Type</strong>{place.cathegory}</div>
+                            <div><strong>Info</strong>{place.description}</div>
+                            <div>Info Source - {place.source}</div>
+                        </Media>
+                   </Media>
+               </div>
+           )
+        
         })
         return(
             <div>
