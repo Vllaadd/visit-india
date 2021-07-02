@@ -25,8 +25,12 @@ class Menu extends React.Component{
         
         })
         return(
-            <div>
-
+            <div className='container'>
+                <div className='row'>
+                    <Media list>
+                        {menu}
+                    </Media>
+                </div>
             </div>
         )
     }
