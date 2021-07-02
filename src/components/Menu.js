@@ -12,7 +12,7 @@ class Menu extends React.Component{
            return(
                <div key={place.id} id="unit" className="col-12 mt-5">
                    <Media tag='li'>
-                       <Media objectsrc={place.image} alt={place.name}></Media>
+                       <Media object src={place.image} alt={place.name}></Media>
                         <Media body className='ml-3'>
                             <Media heading><strong>{place.name}</strong></Media>
                             <div><strong>Location Type</strong>{place.cathegory}</div>
