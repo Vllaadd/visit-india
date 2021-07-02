@@ -3,12 +3,13 @@ import { Navbar } from 'reactstrap';
 import './App.css';
 import Greet from './components/Greet'
 import Menu from './components/Menu';
+import PLACES from './shared/Places';
 
 class App extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      places = PLACES
+      places : PLACES
     }
   }
 
