@@ -1,4 +1,4 @@
-export const PLACES = 
+const PLACES = 
 	[
 			{
 				id: 0,
@@ -66,3 +66,5 @@ export const PLACES =
 			}
 	
 	];
+
+    export default PLACES;

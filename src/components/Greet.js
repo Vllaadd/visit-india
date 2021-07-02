@@ -12,7 +12,7 @@ class Greet extends React.Component{
         return(
             <div>
                 <h1>Hello {this.state.val} World</h1>
-                <Button type='button' onClick={this.changeValue}>Change</Button>
+                <button type='button' onClick={this.changeValue}>Change</button>
             </div>
         )
     }
