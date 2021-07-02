@@ -10,8 +10,9 @@ class App extends React.Component{
     this.state = {
       places = PLACES
     }
+  }
 
-    this.render(){
+    render(){
       return(
         <div className='App'> 
             <Navbar>
@@ -25,7 +26,6 @@ class App extends React.Component{
         </div>
       )
     }
-  }
 }
 
 export default App;
